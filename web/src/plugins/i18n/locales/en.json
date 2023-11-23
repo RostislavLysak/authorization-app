@@ -1,0 +1,255 @@
+{
+  "translation": {
+    "common": {
+      "rules": {
+        "required": "Field is required",
+        "email": "Invalid email address",
+        "password": "Minimum 8 characters, at least 1 letter and 1 number",
+        "validatePassword": {
+          "veryWeak": "Very weak",
+          "weak": "Weak",
+          "strong": "Strong",
+          "veryStrong": "Very strong"
+        }
+      },
+
+      "menu": {
+        "auth": {
+          "1": "Home",
+          "2": "Explore",
+          "3": "Marketplace"
+        },
+        "unAuth": {
+          "1": "Product",
+          "2": "Open Source",
+          "3": "Pricing"
+        }
+      },
+
+      "sidebar": {
+        "menu": {
+          "settings": "Settings",
+          "logout": "Logout"
+        }
+      },
+
+      "burgerMenu": {
+        "title": "Drawer Title",
+        "children": "Content of the drawer"
+      },
+
+      "settingMenu": {
+        "profile": "Profile",
+        "access": "Access and security"
+      },
+
+      "footer": {
+        "links": {
+          "1": {
+            "label": "AML",
+            "href": "#"
+          },
+          "2": {
+            "label": "Frequent questions",
+            "href": "#"
+          },
+          "3": {
+            "label": "Terms of service",
+            "href": "#"
+          },
+          "4": {
+            "label": "Reliability Guarantees",
+            "href": "#"
+          },
+          "5": {
+            "label": "Affiliate program",
+            "href": "#"
+          },
+          "6": {
+            "label": "Privacy policy",
+            "href": "#"
+          },
+          "7": {
+            "label": "Reviews",
+            "href": "#"
+          },
+          "8": {
+            "label": "We are in Telegram",
+            "href": "#"
+          }
+        }
+      }
+    },
+
+    "auth.login": {
+      "label": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "button": {
+        "submit": "Sign in"
+      },
+      "text": {
+        "h1": "Welcome!",
+        "p": "Sign in to continue."
+      },
+      "links": {
+        "forgotPassword": "Forgot password?",
+        "signUp": {
+          "label": "Don’t have an account?",
+          "submit": "Sign up"
+        }
+      },
+      "placeholder": {
+        "email": "johndoe@email.com",
+        "password": "password"
+      }
+    },
+
+    "auth.register": {
+      "label": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password"
+      },
+      "button": {
+        "submit": "Sign up"
+      },
+      "text": {
+        "h1": "Welcome!",
+        "p": "Sign up to continue."
+      },
+      "links": {
+        "signIn": {
+          "label": "Do you have an account?",
+          "submit": "Sign in"
+        }
+      },
+      "placeholder": {
+        "firstName": "first name",
+        "lastName": "last name",
+        "email": "johndoe@email.com",
+        "password": "password"
+      }
+    },
+
+    "auth.changeEmail": {
+      "label": {
+        "newEmail": "New email",
+        "email": "Email"
+      },
+      "button": {
+        "submit": "Change email",
+        "change": "Change"
+      },
+      "text": {
+        "h4": "Change email!",
+        "p": "Enter your new email and confirm it"
+      },
+      "placeholder": {
+        "email": "johndoe@email.com"
+      }
+    },
+
+    "auth.changePassword": {
+      "label": {
+        "oldPassword": "Old Password",
+        "newPassword": "New Password",
+        "password": "Password"
+      },
+      "button": {
+        "submit": "Change password",
+        "change": "Change"
+      },
+      "text": {
+        "h4": "Change password!",
+        "p": "Enter your new password and confirm it"
+      }
+    },
+
+    "auth.resetPassword": {
+      "label": {
+        "newPassword": "New Password"
+      },
+      "button": {
+        "label": "Return to the entrance",
+        "submit": "Change password"
+      },
+      "text": {
+        "h1": "Change password!",
+        "p": "Enter your new password and confirm it"
+      }
+    },
+
+    "auth.forgetPassword": {
+      "label": {
+        "email": "Email"
+      },
+      "button": {
+        "label": "Return to the entrance",
+        "submit": "Reset password"
+      },
+      "text": {
+        "h1": "Password recovery!",
+        "p": "Enter your email to reset your password"
+      },
+      "placeholder": {
+        "email": "johndoe@email.com"
+      }
+    },
+
+    "auth.deleteAccount": {
+      "label": "Delete account",
+      "button": {
+        "submit": "Delete",
+        "cancel": "Cancel"
+      },
+      "text": {
+        "h4": "Confirmation!",
+        "p": "Are you sure you want to delete your account?"
+      }
+    },
+
+    "emailSend": {
+      "resetPassword": {
+        "h1": "Password Reset",
+        "p": "You can now login"
+      },
+      "forgetPassword": {
+        "h1": "An email with your account confirmation link has been sent<br /> to your email: ",
+        "p": "Check your email and come back to proceed!"
+      }
+    },
+
+    "verify": {
+      "confirmation": "Confirmation required",
+      "codeSent": "Enter the code we sent to "
+    },
+
+    "snackbar": {
+      "resetPassword": "Your password has been reset successfully.",
+      "changeEmail": "You changed your email successfully.",
+      "changePassword": "Your password has been changed successfully.",
+      "changesSaved": "Nice! Changes saved"
+    },
+
+    "dashboard.users": {
+      "col": {
+        "id": "ID",
+        "fullName": "Name",
+        "email": "Email",
+        "emailVerified": "Email confirmed"
+      }
+    },
+
+    "errors": {
+      "h1": "Oops!",
+      "h2": "Sorry, an unexpected error has occurred.",
+      "h3": "Something went wrong",
+      "404": "This page doesn't exist!",
+      "401": "You aren't authorized to see this",
+      "503": "Looks like our API is down"
+    }
+  }
+}
